@@ -1,6 +1,6 @@
 
 create table customer (
-    customer_id serial primary key,
+    customer_id bigserial primary key,
     first_name varchar not null,
     last_name varchar not null,
     username varchar unique not null,
